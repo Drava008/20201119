@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            border: 3px solid #000000;
+            color: white;
+        }
+        .wrapper {
+            background: red;
+            height: 2000px;
+        }
+        .fixed {
+            background: blue;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+        .out {
+            background: yellow;
+            position: fixed;
+            top: 206px;
+            left: 206px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="top">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illum asperiores labore. Autem sed quaerat laboriosam vitae quisquam odio laborum corporis nemo enim unde beatae debitis ullam reprehenderit exercitationem, accusantium magnam mollitia nobis! Sapiente sunt quam obcaecati natus voluptatibus voluptas, deserunt, nostrum odit iure voluptate hic exercitationem quo suscipit iusto ipsum debitis nihil molestiae repellendus sint officiis sit libero, maiores necessitatibus error! Molestiae iure dicta sed dolore! Ducimus nostrum doloremque ab assumenda est ea, tenetur id enim architecto itaque porro eveniet sunt fugiat et suscipit atque mollitia reiciendis obcaecati illo inventore nihil corporis quidem. Quo labore veritatis similique inventore non sapiente dolor vero repellat quod rerum cupiditate obcaecati laboriosam ullam nisi porro magni, exercitationem cum amet sed quam? Libero nobis ut sequi temporibus distinctio at, incidunt eius molestias cum in neque nostrum quisquam enim quibusdam tempore dolor quae itaque error eligendi, nisi nihil voluptas iure repellendus! Aliquid laudantium magni iure itaque dolores quaerat nulla rerum sapiente voluptatem accusantium explicabo nam deleniti sint minima illo temporibus asperiores quibusdam mollitia omnis in quia, non esse assumenda. Commodi assumenda ab quo eos. Dolorum ratione nobis sed culpa rem tenetur voluptatem fugiat. Ipsam quisquam, qui non accusamus quia sapiente ut magnam explicabo alias nam.
+        <a href="#top"><div class="fixed">block</div></a>
+    </div>
+    <a href="#down"><div class="out">block2</div></a>
+    <div id="down">text</div>
+</body>
+</html>

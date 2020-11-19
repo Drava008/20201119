@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        div {
+            text-align: center;
+            border: 3px solid #000000;
+            color: white;
+        }
+        .relative {
+            background: red;
+            width: 500px;
+            height: 400px;
+            line-height: 350px;
+            position: relative; 
+            top: 50px;
+            left: 50px;
+        }
+        .absolute {
+            background: blue;
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            right: 10px;
+            bottom: 10px;
+        }
+        .out {
+            background: yellow;
+            position: fixed;
+            top: 206px;
+            left: 206px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="relative">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quaerat earum est doloribus, eaque voluptates dicta nemo magnam at consequuntur illo adipisci architecto aliquam cum hic nostrum. Modi, minus atque.
+        <div class="absolute">block</div>
+    </div>
+</body>
+</html>
